@@ -41,3 +41,4 @@ ggplot(df,aes(num,iter))+
        y="Number of Iterations to reach 1",
        caption="created by /u/zonination")+
   theme_bw()
+ggsave("collatz.png", height=6, width=10, dpi=120, type="cairo-png")
